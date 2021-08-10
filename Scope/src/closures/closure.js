@@ -23,3 +23,17 @@ let myMoneyBox = moneyBox()
 myMoneyBox(4)
 myMoneyBox(6)
 myMoneyBox(10)
+
+
+//ejemplo en mozilla
+
+function crearFunc(){
+    var nombre = "Ricardo"
+    function mostrarNombre() {
+        console.log(nombre)
+    }
+    return mostrarNombre
+}
+
+var miFuncion = crearFunc()
+miFuncion()
